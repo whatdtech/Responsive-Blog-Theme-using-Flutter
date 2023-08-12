@@ -9,7 +9,7 @@ import 'socal.dart';
 import 'web_menu.dart';
 
 class Header extends StatelessWidget {
-  final MenuController _controller = Get.put(MenuController());
+  final MenuControllerr _controller = Get.put(MenuControllerr());
 
   @override
   Widget build(BuildContext context) {
@@ -46,7 +46,7 @@ class Header extends StatelessWidget {
                   ),
                   SizedBox(height: kDefaultPadding * 2),
                   Text(
-                    "Welcome to Our Blog",
+                    "Welcome to IoTrics",
                     style: TextStyle(
                       fontSize: 32,
                       color: Colors.white,
@@ -57,7 +57,7 @@ class Header extends StatelessWidget {
                     padding:
                         const EdgeInsets.symmetric(vertical: kDefaultPadding),
                     child: Text(
-                      "Stay updated with the newest design and development stories, case studies, \nand insights shared by DesignDK Team.",
+                      "Stay updated with the newest design and development stories, case studies, \nand insights shared by IoTrics Team.",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         color: Colors.white,

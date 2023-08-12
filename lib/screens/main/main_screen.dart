@@ -8,7 +8,7 @@ import 'components/header.dart';
 import 'components/side_menu.dart';
 
 class MainScreen extends StatelessWidget {
-  final MenuController _controller = Get.put(MenuController());
+  final MenuControllerr _controller = Get.put(MenuControllerr());
   @override
   Widget build(BuildContext context) {
     return Scaffold(

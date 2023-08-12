@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'IoTrics.com',
       theme: ThemeData(
         primaryColor: kPrimaryColor,
         scaffoldBackgroundColor: kBgColor,
@@ -22,9 +22,9 @@ class MyApp extends StatelessWidget {
           style: TextButton.styleFrom(backgroundColor: kPrimaryColor),
         ),
         textTheme: TextTheme(
-          bodyText1: TextStyle(color: kBodyTextColor),
-          bodyText2: TextStyle(color: kBodyTextColor),
-          headline5: TextStyle(color: kDarkBlackColor),
+          bodyLarge: TextStyle(color: kBodyTextColor),
+          bodyMedium: TextStyle(color: kBodyTextColor),
+          headlineSmall: TextStyle(color: kDarkBlackColor),
         ),
       ),
       home: MainScreen(),
